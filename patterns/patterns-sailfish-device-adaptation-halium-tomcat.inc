@@ -1,20 +1,15 @@
-%package -n patterns-sailfish-device-adaptation-halium-mimameid
-Summary: Sailfish HW Adaptation halium-mimameid
+%package -n patterns-sailfish-device-adaptation-halium-tomcat
+Summary: Sailfish HW Adaptation halium-tomcat
 
-Requires: droid-hal-vendor-img-halium-mimameid
-Requires: kernel-adaptation-halium-mimameid
-Requires: droid-config-halium-mimameid-sailfish
-Requires: droid-config-halium-mimameid-pulseaudio-settings
-Requires: droid-config-halium-mimameid-policy-settings
-Requires: droid-config-halium-mimameid-preinit-plugin
-Requires: droid-config-halium-mimameid-flashing
-Requires: droid-config-halium-mimameid-bluez5
-Requires: droid-hal-version-halium-mimameid
+Requires: droid-config-halium-tomcat-sailfish
+Requires: droid-config-halium-tomcat-pulseaudio-settings
+Requires: droid-config-halium-tomcat-policy-settings
+Requires: droid-config-halium-tomcat-preinit-plugin
+Requires: droid-config-halium-tomcat-flashing
+Requires: droid-config-halium-tomcat-bluez5
+Requires: droid-hal-version-halium-tomcat
 
 Requires: qt5-plugin-generic-evdev
-
-# Fixes off MTK behaviour
-Requires: libtls-padding
 
 # Hybris packages
 Requires: libhybris >= 0.0.5.48
@@ -45,7 +40,7 @@ Requires: libngf-qt5-qtfeedback
 Requires: hybris-libsensorfw-qt5
 
 # Pulseadio
-Requires: pulseaudio-modules-droid-jb2q
+Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-hidl
 Requires: audiosystem-passthrough-dummy-af
 
@@ -91,7 +86,7 @@ Requires: geoclue-provider-hybris
 # For mounting SD card automatically
 Requires: sd-utils
 
-%description -n patterns-sailfish-device-adaptation-halium-mimameid
-Pattern with packages for halium-mimameid HW Adaptation
+%description -n patterns-sailfish-device-adaptation-halium-tomcat
+Pattern with packages for halium-tomcat HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-halium-mimameid
+%files -n patterns-sailfish-device-adaptation-halium-tomcat

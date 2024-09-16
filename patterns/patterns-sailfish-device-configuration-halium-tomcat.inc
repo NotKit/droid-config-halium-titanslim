@@ -1,8 +1,8 @@
-%package -n patterns-sailfish-device-configuration-halium-mimameid
-Summary: Sailfish HW Adaptation halium-mimameid
+%package -n patterns-sailfish-device-configuration-halium-tomcat
+Summary: Sailfish HW Adaptation halium-tomcat
 
-Requires: patterns-sailfish-device-configuration-common-halium-mimameid
-Requires: patterns-sailfish-device-adaptation-halium-mimameid
+Requires: patterns-sailfish-device-configuration-common-halium-tomcat
+Requires: patterns-sailfish-device-adaptation-halium-tomcat
 
 Requires: patterns-sailfish-cellular-apps
 Requires: patterns-sailfish-applications
@@ -72,7 +72,7 @@ Recommends: zypper
 Recommends: strace
 Recommends: jolla-rnd-device
 
-%description -n patterns-sailfish-device-configuration-halium-mimameid
-Pattern with packages for halium-mimameid configurations
+%description -n patterns-sailfish-device-configuration-halium-tomcat
+Pattern with packages for halium-tomcat configurations
 
-%files -n patterns-sailfish-device-configuration-halium-mimameid
+%files -n patterns-sailfish-device-configuration-halium-tomcat
