@@ -1,0 +1,3 @@
+service time_daemon /vendor/bin/time_daemon_DISABLED
+    override
+    disabled
