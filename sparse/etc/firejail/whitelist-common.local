@@ -1,5 +1,4 @@
-#MTK additional whitelist
-whitelist /dev/mali0
+# Qualcomm additional whitelist
 whitelist /dev/pmsg0
 whitelist /dev/ion
 whitelist /dev/hwbinder
@@ -10,6 +9,8 @@ whitelist /dev/binder
 whitelist /dev/socket/property_service
 whitelist /dev/shm
 whitelist /dev/ashmem
+whitelist /dev/kgsl-3d0
+whitelist /dev/dri/renderD128
 
 #This is to allow loading libtlspadding
 private-etc ld.so.preload
